@@ -17,7 +17,7 @@ class bingWallpapersBackupTools
             try
             {
                 Copy();
-                Console.WriteLine("备份完成,请前往桌面images文件夹查看");
+                Console.WriteLine("备份完成,请前往桌面bingWallpapers文件夹查看");
             }
             catch (Exception ex)
             {
@@ -40,7 +40,7 @@ class bingWallpapersBackupTools
         string sourceDir = Environment.ExpandEnvironmentVariables(
             @"%localappdata%\Packages\Microsoft.BingWallpaper_8wekyb3d8bbwe\LocalState\images\bing");
         string destDir = Environment.ExpandEnvironmentVariables(
-            @"%userprofile%\Desktop\images");
+            @"%userprofile%\Desktop\bingWallpapers");
 
         if (!Directory.Exists(destDir))
         {
