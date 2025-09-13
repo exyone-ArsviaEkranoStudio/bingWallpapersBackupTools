@@ -38,7 +38,7 @@ class bingWallpapersBackupTools
     public static void Copy()
     {
         string sourceDir = Environment.ExpandEnvironmentVariables(
-            @"%localappdata%\Packages\Microsoft.BingWallpaper_8wekyb3d8bbwe\LocalState\images");
+            @"%localappdata%\Packages\Microsoft.BingWallpaper_8wekyb3d8bbwe\LocalState\images\bing");
         string destDir = Environment.ExpandEnvironmentVariables(
             @"%userprofile%\Desktop\images");
 
